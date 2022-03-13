@@ -1,0 +1,368 @@
+*{margin: 0; padding: 0; font-family: sans-serif;}
+
+/* navs starts here*/
+.nav{width: 100%; height: 70px; display: flex; align-items: center;}
+.nav .nav_links .row1,.row2{display: flex; justify-content: space-between;}
+.nav .logo img{width: 60px;}
+.nav .nav_links .row2 .right-side img{width: 15px;}
+.nav .nav_links{width: 87%;}
+.nav .logo{width: 10%; text-align: center;}
+.nav .nav_links a{text-decoration: none; color: black; font-size: 12px; margin: 5px;}
+.nav .nav_links .row1{padding-bottom: 5px;}
+.nav .nav_links .row2{padding-top: 5px; border-top: 1px solid lightgrey;}
+.nav .nav_links .showNave650{display: none;}
+.nav-mobile{display: none;}
+/* navs ends here*/
+
+/*Sliders starts here */
+.slider{width: 100%; height: 500px;
+     background-image: url('../img/banner.webp'); background-repeat: no-repeat;
+    background-size: cover; background-position: center;}
+.slider .botton a{text-decoration: none; color: white;
+background-color: maroon; padding: 15px; border-radius:5px;}   
+.slider .botton{padding-top: 380px; margin-left: 100px;} 
+/*Slicers ends here */
+
+/*Home sections starts here*/
+.home-section1{width: 90%; display:flex; justify-content: space-evenly; margin:auto; margin-top: 50px;}
+.home-section1 img{width: 150px; padding-top: 10px; padding-bottom: 10px; }
+.home-section1 .col{width: 18%; border: 1px solid lightgrey; text-align: center;
+padding: 20px; border-radius: 12px;}
+.home-section1 .col h3{font-size: 14px;}
+.home-section1 .col p{font-size: 10px; color: grey;}
+/*Home sections end here*/
+
+/*LG BUILDING STARTS here*/
+.building{width: 100%; height: 300px;
+background-image: url('../img/B2B\ Banner-01-01.webp'); background-repeat: no-repeat;
+ background-position: top; background-size: cover; margin-top: 50px;} 
+.building .link a{text-decoration: none; color:white; background-color: maroon; padding: 15px;}
+.building .link{padding-top: 190px; text-align: center}
+/*LG BUILDING ends here*/
+
+/*Home sections2 starts here*/
+.home-section2{width:100%; display:flex; justify-content: space-evenly; margin: auto; margin-top: 50px;}
+.home-section2 .col {width: 32%;}
+.home-section2 img{width:100%; }
+.home-section2 .col h3{font-size: 28px; padding-top: 20px; padding-bottom: 10px;}
+.home-section2 .col a{text-decoration: none; color: black;}
+/*Home sections2 ends here*/
+
+/*Links starts here*/
+.home-links{width: 70%;display: flex; margin: auto; margin-top: 50px;
+     justify-content: space-evenly; border-bottom: 1px solid lightgrey;}
+.home-links .col a{text-decoration: none; padding: 15px; color: black;}
+/*Links ends here*/
+
+/* home section three starts here*/
+.home-section3{width: 90%; display: flex; justify-content: space-evenly; margin:auto; margin-top: 50px;}
+.home-section3 img{width: 200px;padding-top: 20px; padding-bottom: 20px;}
+.home-section3 .col{width: 100%; text-align: center;padding: 20px;}
+.home-section3 .col p{font-size: 15px; color: grey;}
+/* home section three ends here*/
+
+/*home section 4 starts here*/
+.home-section4{width: 98%; display: flex; justify-content: space-around; margin:auto; margin-top: 100px;}
+
+.home-section4 .col1{width: 38%; height: 650px;
+background-image: url('../img/sound.webp'); background-repeat: no-repeat; background-size: cover;
+ background-position: top;}
+ .home-section4 .col1 h2{color: white; text-align: center; padding-top: 40px; font-size: 28px;}
+ .home-section4 .col1{width: 45%;}
+
+.home-section4 .col2{width: 50%}
+.home-section4 .col2 h2{padding-top: 20px; font-size: 20px;line-height: 30px;}
+
+.home-section4 .col2 .top{width: 100%; height: 300px; background-image: url('../img/africa-home-block-2-d.webp');
+      background-repeat: no-repeat;  background-size: cover;  background-position:right;  margin: top 20px;}
+
+.home-section4 .col3 .bottom{width:100%; height: 330px; background-image: url('../img/lg\ twin\ wash.webp'); 
+background-repeat: no-repeat; background-size: cover; margin-top: 20px; background-position: right; }
+/* home section 4 ends here*/
+
+/* product starts here */
+.product{width: 90%; height: 100px; display: flex; justify-content: space-around; margin: auto; margin-top: 60px; text-align: center;}
+.product .col p{font-size: 18px; text-align: center; line-height: 50px; }
+/* product ends here */
+
+/* words starts here*/
+.words{width: 100%; height: 100px; text-align: center; margin-top: 50px;}
+.words .col p{width: 100%; height: 100px; color: gray; font-size: 15px; padding-top: 40px;}
+/* words ends here*/
+
+/*image starts here*/
+.images{width: 90%; margin: auto; margin-top:100px; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); text-align: center;gap: 10px;}
+.images .col p{color: grey; font-size: 14px; padding-top: 25px;}
+/*image ends here*/
+
+/*words 2 starts here*/
+.words1{width: 100%; height: 100px; text-align: center; margin: auto; margin-top: 60px;}
+.words1 .col p{color: gray; font-size: 15px; padding-top: 20px ; line-height: 22px;}
+/*words 2 ends here starts here*/
+
+/*images2 starts here*/
+.images2{width: 100%; height: 200%; display: flex; justify-content: space-around; text-align: center; margin: auto; margin-top: 50px; }
+.images2 .col h2{font-size: 20px; padding-top: 20px; }
+.images2 .col p{font-size: 14px; color: gray; padding-top: 10px; line-height: 20px;}
+/*images2 ends here*/
+
+/* foot starts here */
+.foot{width:100%; height:890px; background-color: rgb(246, 246, 250); margin: auto; margin-top: 20px;}
+.foot .col{width: 98%; text-align: justify;}
+.foot .col p{font-size: 11.0px; padding-top: 30px; margin-left: 30px; line-height: 20px; text-align: justify;}
+.foot .col .be{border-bottom: 1px solid gray;}
+.smile{width: 100%; margin-top: 10px; }
+.smile .foot-con .ify img{width: 25px; height: 25px; margin-bottom: 10px;}
+.smile .foot-con .ify{display: flex; }
+.smile .foot-con .ify p{color: black; font-size: 12px; padding-top: 6px; margin-left: 6px;}
+.smile .foot-con{ width: 95%; height: 55px; display: flex;  justify-content: space-between;
+     margin: auto; margin-top: 30px; border-bottom: 1px solid grey;}
+
+/* foot ends here */
+.foot .footer{width: 93%; display: flex; margin-top: auto; margin-top: 30px; justify-content: space-around;}
+.foot .footer .col ul{list-style: none; color: dimgray; margin-top: 10px; font-size: 14px; line-height: 24px;}
+.foot .footer .col{margin: auto; justify-content: space-around;}
+.foot .footer .col{width: 11%;}
+.foot .footer .col .bee{padding-top: 10px}
+.foot .footer .col h5{padding-top: 5px;}
+.foot .footer-line{border-left: 1px solid lightgray; padding-left: 8px;}
+.foot .footer-line2{width: 93%; margin:auto; margin-top: 20px;}
+.foot .footer-line2 .col{margin: auto; justify-content: space-around;}
+.foot .footer-line2 .bee{padding-top: 10px;}
+.foot .footer-line2 ul{list-style: none; color: dimgray; font-size:14px ; line-height: 24px;}
+/* foot ends here */
+
+
+
+
+
+
+
+
+
+/*explore page starts here */
+.class {width: 100%; height: 50px; background-color: lightgray;}
+.class p{width: 100%; text-align: center; margin-top: 20px; font-size: 14px; padding: 15px;}
+.class p a{text-decoration: none; font-size: 16px; padding: 6px; background-color: maroon; border-radius: 5px; color: white;}
+.class-bottom hr{margin-top:10px}
+/* explore ends here*/
+
+/* home starts here */
+.Home{width: 100%;height: 200px; margin-top: 20px;;}
+.Home .col a{text-decoration: none; color: gray; font-size: 14px; padding:10px;} 
+.Home .col h1{font-size: 40px;text-align: center; margin-top: 20px;}
+.Home .col p{text-align: center; margin-top: 30px; line-height: 25px;}
+/* home ends here */
+
+/*twin washers start  here */
+.Twin-washer{width: 100%; height: 580px; background-image: url('../img/twinwasher.jpg');background-position: top; 
+background-repeat: none;}
+.Twin-washer .col h1{color:white; text-align: justify; height: 4px; padding-top: 140px; 
+     margin-left: 890px;font-size: 38px; margin-bottom: 90px;}
+.Twin-washer .col p{color: white; font-size: 14px; text-align: justify; margin-left: 890px; margin-bottom: 20px;}
+.Twin-washer .col a {text-decoration: none; color: white;text-align: center; padding: 10px;
+     margin-left: 890px; background-color: rgb(197, 61, 61); font-size: 10px; border-radius: 3px;}
+/* twin washer ends here*/
+
+/* home appliances start here */
+.HomeAppliances .col p{font-size: 25px; margin-top: 50px; text-align: center;}
+/* home appliances end here */
+
+/*Home sections starts here*/
+.home-section1{width: 90%; display:flex; justify-content: space-evenly; margin:auto; margin-top: 50px;}
+.home-section1 img{width: 150px; padding-top: 20px; padding-bottom: 10px; }
+.home-section1 .col{width: 16%; border: 1px solid lightgrey; text-align: center;
+padding: 20px; border-radius: 10px;}
+.home-section1 .col h3{font-size: 14px;}
+.home-section1 .col p{font-size: 10px; color: grey; padding: 16px; line-height: 15px;}
+/*Home sections end here*/
+
+/* dealer page */
+.dealer .col p{font-size:20px; margin-top: 50px; text-align: center;}
+/* dealer page ends  */
+
+/* pictures starts here */
+.pictures{width: 90%; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px,3fr)); margin: auto; margin-top: 40px; 
+     text-align: center;}
+
+/* pictures ends here */
+
+/*links starts here*/
+.Links{width: 90%; display: grid; grid-template-columns:repeat(auto-fill, minmax(200px,3fr)); margin: auto; margin-top: 20px; text-align: center;}
+.Links .col a{text-decoration: none; color: white; font-size: 12px; background-color: rgb(197, 61, 61); 
+     padding: 8px; border-radius: 3px; margin-top: 10px;}
+
+/*links ends here*/
+
+/*drive washer starts here*/
+.drive-washer{width: 100%; height: 780px; background-image: url('../img/drive\ washer\ m.jpg'); background-repeat: no-repeat; 
+     background-position: center; margin-top: 50px;}
+.drive-washer .col h1{color: white; padding-top: 360px; text-align: justify; margin-left: 700px; font-size: 35px; }
+.drive-washer .col p{color: white; text-align: justify; margin-left: 700px; margin-top: 10px; margin-bottom: 20px; line-height: 20px;}
+.drive-washer .col a{text-decoration: none; color: white; text-align: justify; margin-left: 700px; background-color: rgb(197, 61, 61);
+      padding: 8px; border-radius: 3px;}
+      .nav-mobile{width: 100%; background-color:rgb(46, 46, 46); text-align: justify;}
+      .nav-mobile .center h1{color: white; font-size: 30px; margin-left: 10px;}
+      .nav-mobile .center p{color: white; font-size: 12px; margin-left: 10px; margin-top: 5px; margin-bottom: 3px;}
+      .nav-mobile .center a{text-decoration: none; color: white; font-size: 10px; background: rgb(197, 61, 61); margin-left: 10px; 
+          padding: 1px; ;}
+/* drive washer ends here*/
+
+/*fridge starts here*/
+.Fridge{width: 100%; height: 830px; background-image: url('../img/fridge.jpg'); background-repeat: no-repeat; background-position: top;}
+.Fridge .col h1{color: white; padding-top: 360px; text-align: justify; margin-left: 750px; margin-bottom: 20px;}
+.Fridge .col a{text-decoration: none; color: white; margin-left: 750px; background-color: rgb(197, 61, 61); padding: 8px; border-radius: 3px;} 
+
+
+
+/* hr starts here */
+.class hr{color: lightgray;}
+
+/* home/tv/audio starts here*/
+.Tv-audio{width: 100%;height: 200px; margin-top: 20px;}
+.Tv-audio .col  a{text-decoration: none; font-size: 14px; color: grey; padding: 20px;}
+.Tv-audio .col h1{text-align: center; margin-top: 20px; font-size: 38px;}
+.Tv-audio .col p{color: grey; text-align: center; margin-top: 20px; font-size: 14px; line-height: 20px;}
+/* home/tv/audio ends  here*/
+
+/* nano cell starts here*/
+.nano-cell{width:100%; height: 550px; background-image: url('../img/afrik\ tv.jpg'); background-repeat: no-repeat; background-position: top;}
+.nano-cell .col h1{color: white; padding-top: 230px; margin-left: 800px; font-size: 40px; margin-bottom: 20px;}
+.nano-cell .col a{text-decoration: none; color: white; margin-left: 800px; font-size: 14px; background-color: rgb(197, 61, 61); padding: 8px; border-radius: 3px;}
+/* nano cell ends here*/
+
+/* home-section 1 starts here */
+.home-section1a{width: 90%; display:flex; justify-content: space-evenly; margin:auto; margin-top: 50px;}
+.home-section1a img{width: 150px; padding-top: 20px; padding-bottom: 10px; }
+.home-section1a .col{width: 16%; border: 1px solid lightgrey; text-align: center;
+padding: 20px; border-radius: 10px;}
+.home-section1a .col h1{font-size: 14px; color: grey;}
+.home-section1a .col p{font-size: 10px; color: grey; padding: 18px; line-height: 15px;}
+/* home-section 1 ends here */
+
+/* home-section 1a starts here */
+.home-section2a{width: 90%; display:flex; justify-content: space-evenly; margin:auto; margin-top: 50px;}
+.home-section2a img{width: 150px; padding-top: 20px; padding-bottom: 10px; }
+.home-section2a .col{width: 16%; border: 1px solid lightgrey; text-align: center;
+padding: 20px; border-radius: 10px;}
+.home-section2a .col h1{font-size: 14px; color: grey;}
+.home-section2a .col p{font-size: 10px; color: grey; padding: 25px; line-height: 15px;}
+/* home-section 1 ends here */
+
+/*oled starts here */
+.OLED{width: 100%; height: 790px; background-image: url('../img/oled1.jpg'); background-repeat: no-repeat; margin-top: 50px;}
+.OLED .col p{padding-top: 300px; margin-left: 820px; font-size: 18px; margin-bottom: 20px;}
+.OLED .col h1{margin-left: 820px; margin-bottom: 20px;}
+.OLED .col a{text-decoration: none; color: white; margin-left: 820px; background-color: rgb(197, 61, 61); padding: 10px; font-size: 10px; border-radius: 3px;}
+/*oled ends here */
+
+/*TV5 starts here */
+.TV5{width: 100%; height: 590px; background-image: url('../img/ol.jpg'); background-repeat: no-repeat;}
+.TV5 .col h1{padding-top: 250px; color: white; margin-left: 950px; margin-bottom: 20px;}
+.TV5 .col a{text-decoration: none; color: white; margin-left: 950px; font-size: 10px; background-color: rgb(197, 61, 61); padding: 10px; border-radius: 3px;}
+/*TV5 ends  here */
+
+/*TV7 starts here */
+.TV7{width: 100%; height: 650px; background-image: url('../img/tv7.jpg'); background-repeat: no-repeat;}
+.TV7 .col h1{ color: white; font-size: 48px; padding-top: 180px; margin-left: 100px; margin-bottom: 20px;}
+.TV7 .col a{text-decoration: none; color: white; margin-left: 100px; font-size: 10px; background-color: rgb(197, 61, 61); border-radius: 3px; padding: 10px;}
+/*TV7 ends here */
+
+/*home starts here */
+.Sound{width: 94%; display:flex; justify-content: space-evenly;}
+.Sound .top{width: 50%; height: 200%;}
+.Sound .top .col1{width: 100%; height: 350px; background-image: url('../img/soundbar2.jpg'); background-repeat: no-repeat;
+background-size: cover;}
+.Sound .top .col1 h1{color: white; font-size: 20px; padding: 15px;}
+.Sound .top .col2{width: 100%; height:350px; background-image: url('../img/portable\ bluetoot.jpg'); background-repeat: no-repeat;
+background-size: cover; margin-top: 20px; background-position: top;}
+.Sound .top .col2 h1{color: white; font-size: 20px; padding:15px ;}
+.Sound .col3{width: 45%; height: 720px; background-image: url('../img/soundbar.jpg'); background-position: top; background-size: cover;}
+.Sound .col3 h1{color: white; font-size: 25px ; padding-top: 15px; margin-left: 15px; text-align: center; margin: 10px;}
+.Sound .col3 p{color: white; font-size: 12px; text-align: center;}
+/*home ends here */
+/*Black starts here */
+.Black{width: 100%; height:100px; background-color: black;}
+.Black .col{width: 30%; display: grid; grid-template-columns: auto auto auto auto;}
+.Black .col a{color: white; text-decoration: none; font-size: 12px; padding-top: 20px; margin-left: 20px;} 
+.Black .col2 p{color: grey; margin-top: 20px; font-size: 12px; margin-left: 20px; margin-bottom: 10px}
+.Black .col2  a{font-size: 12px; color: grey; margin-left: 10px;}
+
+
+@media (max-width:1024px){
+     .Twin-washer .col h1{margin-bottom: 130px;}
+}
+
+
+@media (max-width: 768px){
+     .nav .nav_links a{font-size: 10px;}
+     .slider{background-size: cover; background-size: cover;}
+     .slider .botton a{padding: 10px;}
+     .home-section1{display: block;}
+     .home-section2{display: block;}
+     .home-section3{display: block;}
+     .home-section4{display: block;}
+     .images{padding: 25px;}
+     .section3 .col p{margin-bottom: 10px;}
+     .home-section4 .col2{width: 100%;}
+     .home-section4 .col1{width: 100%; margin-bottom: 10px;}
+     .home-links{font-size: 15px;}
+     .home-section3 .col{width: 100%;}
+     .home-section3 .col img{padding-top: 10px;}
+     .home-section2 .col{width:80%; margin: auto;}
+     .home-section2 .col h3{font-size: 25px;}
+     .home-section1 .col{width: 70%; margin: auto; margin-top: 40px;}
+     .home-section1 .col p{font-size: 14px;}
+     .home-section1 .col h3{font-size: 16px;}
+     .Home .col a{margin-left: 16px; font-size: 10px;}
+     .Home .col h1{font-size:25px ;}
+     .Twin-washer .col h1{margin-left: 520px; font-size: 28px; margin-bottom: 68px;}
+     .Twin-washer .col p{font-size: 13px; margin-left: 520px;}
+     .Twin-washer .col a{margin-left: 520px;}
+     .pictures .col img{width: 80%;}
+     .Links .col a{padding: 1px;}
+     .drive-washer .col h1{margin-left: 500px; font-size: 28px; margin-bottom: 10px;}
+     .drive-washer .col p{font-size: 13px; margin-left: 500px; margin-bottom: 20px;}
+     .drive-washer .col a{margin-left: 500px;}
+     .Fridge .col h1{margin-left: 500px; font-size:28px;}
+     .Fridge .col a{margin-left: 500px;}
+    
+     
+}
+@media(max-width: 650px){   
+     .nav .nav_links .hideNave650{display:none;}
+     .nav .nav_links .showNave650{display: inline;}
+     .Home .col h1{font-size: 19px;}
+     .Home .col p{font-size: 12px;}
+     .Twin-washer .col h1{margin-left: 470px; font-size: 19px;}
+     .Twin-washer .col p{margin-left: 470px; font-size: 12px; padding-bottom: 60px;padding-bottom: 8px;}
+     .Twin-washer .col a{margin-left: 470px;}
+     .drive-washer .col h1{margin-left: 370px; font-size: 20px; margin-bottom: 20px;}
+     .drive-washer .col p{font-size: 12px; margin-left: 370px;}
+     .drive-washer .col a{margin-left: 370px; font-size: 10px;}
+     .Fridge .col h1{margin-left: 370; font-size: 20px;}
+     .Fridge .col a{margin-left: 370; font-size: 10px;}
+     .pictures .col img{width: 38%;}
+     .Links .col a{font-size:8px; padding: 1px} ;
+
+
+    
+}
+@media (max-width:425px){
+     .nav-mobile{display: flex; justify-content: space-between;}
+     .nav-moile img{width: 30px;} 
+     .nav{display: none;}
+     .drive-washer .col{display: none;}
+     .Twin-washer .col{display: none;}
+     .Fridge .col{display: none;}
+     .nav-mobile .left img{width: 35px; padding-left: 10px;}
+     .nav-mobile .right img{width: 35px;}
+     .nav-mobile .middle img{width: 70px;}
+     .images{width: 95%; display: grid; grid-template-columns: auto auto auto; }
+     .foot .footer{display: none;}
+     .Home .col  .hideNave650{display: none;}
+     .Home .col h1{font-size: 20px; text-align: center;}
+     .Home .col p{font-size: 17px; text-align: center;  margin-bottom: 5px;}
+
+
+}
